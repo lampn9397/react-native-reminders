@@ -1,6 +1,6 @@
 {
   "name": "react-native-reminders-example",
-  "description": "Example app for react-native-reminders",
+  "description": "Example app for @lampn9397/react-native-reminders",
   "version": "0.0.1",
   "private": true,
   "scripts": {
