@@ -1,5 +1,5 @@
 {
-  "name": "@wiicamp/react-native-reminders",
+  "name": "react-native-reminders",
   "version": "2.1.1",
   "description": "React Native Reminders is a modern, well-supported, and cross-platform Reminders for React Native",
   "main": "lib/commonjs/index",

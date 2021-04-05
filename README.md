@@ -1,17 +1,17 @@
 # React Native Reminders
-[![NPM version](https://img.shields.io/npm/v/@wiicamp/react-native-reminders)](https://www.npmjs.com/package/@wiicamp/react-native-reminders)
-[![License](https://img.shields.io/npm/l/@wiicamp/react-native-reminders)](https://github.com/wiicamp/react-native-reminders/blob/master/LICENSE)
+[![NPM version](https://img.shields.io/npm/v/react-native-reminders)](https://www.npmjs.com/package/react-native-reminders)
+[![License](https://img.shields.io/npm/l/react-native-reminders)](https://github.com/wiicamp/react-native-reminders/blob/master/LICENSE)
 
 React Native Reminders is a modern, well-supported, and cross-platform Reminders for React Native
 
 ## Installation
 
 ```sh
-yarn add @wiicamp/react-native-reminders
+yarn add react-native-reminders
 ```
 Or
 ```sh
-npm install @wiicamp/react-native-reminders
+npm install react-native-reminders
 ```
 
 #### Using React Native >= 0.60
@@ -26,7 +26,7 @@ Linking the package manually is not required anymore with [Autolinking](https://
 You then need to link the native parts of the library for the platforms you are using. The easiest way to link the library is using the CLI tool by running this command from the root of your project:
 
 ```
-react-native link @wiicamp/react-native-reminders
+react-native link react-native-reminders
 ```
 
 ### Permissions
@@ -53,7 +53,7 @@ Then you have to explicitly ask for the permission
 ## Usage
 
 ```js
-import Reminders from "@wiicamp/react-native-reminders";
+import Reminders from "react-native-reminders";
 
 // Request permission
 Reminders.requestPermission();
