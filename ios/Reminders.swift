@@ -32,10 +32,7 @@ class Reminders: NSObject {
             ]});
         
         return [
-            "id": reminder.calendarItemIdentifier,
-            "title": reminder.title,
-            "note": reminder.notes,
-            "alarms": alarms,
+            reminder
         ];
     }
     
